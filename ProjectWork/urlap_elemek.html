@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap elemek</title>
+</head>
+<body>
+    
+    <p>Felhasználónév:</p> <input type="text" id="username">
+    <p>Jelszó:</p> <input type="password" id="jelszo">
+    <br>
+    <br>
+    <button onclick="validalas()">Bejelentkezés</button>
+
+
+    <script>
+
+        function validalas(){
+
+                var be = "TesztElek";
+                var jel = "alma123";
+
+                var megadott_be = document.getElementById("username").value;
+                var megadott_jel = document.getElementById("jelszo").value;
+
+                if(be == megadott_be && jel == megadott_jel){
+
+                    alert("Sikeres belépés");
+
+                }
+                else{
+
+                    alert("Sikertelen belépés");
+                }
+
+
+
+
+        }
+
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style2.css">
+    <title>Digitális könyvtár</title>
+</head>
+<body>
+    <div class="nav">
+        <input type="checkbox">
+          <span></span>
+          <span></span>
+          <div class="menu">
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a onclick="ev9()" href="#">9.osztály</a></li>
+            <li><a onclick="ev10()" href="#">10.osztály</a></li>
+            <li><a onclick="ev11()" href="#">11.osztály</a></li>
+            <li><a onclick="ev12()" href="#">12.osztály</a></li>
+          </div>
+      </div>
+      <div class="focim">
+        <h1>Digitális Könyvtár</h1>
+        <h4>minden tanuló számára</h4>
+      </div>
+
+      <div class="baloszlop">
+        <div class="focim2">
+            <h1>Költők művei</h1>
+        </div> 
+        <div class="petofi">
+            <h3>Petőfi Sándor</h3>
+            <img src="petofikep.png">
+            <ul>
+                <li><a id="kotelezo" href="https://www.arcanum.com/hu/online-kiadvanyok/Verstar-verstar-otven-kolto-osszes-verse-2/petofi-sandor-DFB2/1848-F625/az-apostol-F9A0/" target="_blank">Az apostol</a></li>
+                <li><a href="https://www.arcanum.com/hu/online-kiadvanyok/Verstar-verstar-otven-kolto-osszes-verse-2/petofi-sandor-DFB2/1848-F625/anyam-tyukja-F6E1/" target="_blank">Anyám tyúkja</a></li>
+                <li><a href="https://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/petofi/alf.htm" target="_blank">Az alföld</a></li>
+                <li><a href="https://www.arcanum.com/hu/online-kiadvanyok/Verstar-verstar-otven-kolto-osszes-verse-2/petofi-sandor-DFB2/1843-E189/befordultam-a-konyhara-E25B/" target="_blank">Befordúltam a konyhára</a></li>
+                <li><a href="https://www.arcanum.com/hu/online-kiadvanyok/Verstar-verstar-otven-kolto-osszes-verse-2/petofi-sandor-DFB2/1846-EC68/egy-gondolat-bant-engemet-EFB8/" tabindex="_blank">Egy gondolat bánt engemet</a></li>
+                <li><a href="https://www.arcanum.com/hu/online-kiadvanyok/Verstar-verstar-otven-kolto-osszes-verse-2/petofi-sandor-DFB2/1846-EC68/ereszkedik-le-a-felho-EEF0/" target="_blank">Ereszkedik le a felhő</a></li>
+                <li><a id="kotelezo" href="https://www.arcanum.com/hu/online-kiadvanyok/Verstar-verstar-otven-kolto-osszes-verse-2/petofi-sandor-DFB2/1844-E2C7/furdik-a-holdvilag-az-eg-tengereben-E390/" target="_blank">Fürdik a holdvilág</a></li>
+                <li><a id="kotelezo" href="http://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/petofi/elso.htm" target="_blank">A helység kalapácsa</a></li>
+                <li><a href="https://mek.oszk.hu/01000/01009/01009.htm" target="_blank">A hóhér kötele</a></li>
+                <li><a href="https://mek.oszk.hu/01000/01010/01010.htm" target="_blank">János Vitéz</a></li>
+                <li><a href="https://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/petofi/nemdal.htm" target="_blank">Nemzeti Dal</a></li>
+                <li><a href="https://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/petofi/szeptveg.htm" target="_blank">Szeptember végén</a></li>
+                <li><a href="https://www.arcanum.com/hu/online-kiadvanyok/Verstar-verstar-otven-kolto-osszes-verse-2/petofi-sandor-DFB2/1843-E189/tavolbol-E23A/" target="_blank">Távolból</a></li>
+                <li><a href="https://mek.oszk.hu/14500/14585/14585.htm" target="_blank">Tigris és hiéna</a></li>
+            </ul>
+            <h3>Vörösmarty Mihály</h3>
+            <img src="vorosmarty2.png">
+            <ul>
+                <li><a id="kotelezo" href="">Szózat</a></li>
+                <li><a href="">Előszó</a></li>
+                <li><a href="">A vén cigány</a></li>
+                <li><a href="">Gondolatok a könyvtárban</a></li>
+                <li><a href="">Zalán futása</a></li>
+                <li><a id="kotelezo" href="">Csongor és Tünde</a></li>
+            </ul>
+            <h3>Homérosz</h3>
+            <img src="homerosz.jpg">
+            <ul>
+              <li><a id="kotelezo" href="">Iliász</a></li>
+              <li><a id="kotelezo" href="">Odüsszeia</a></li>
+            </ul>
+        </div>
+        <div class="kozep">
+          <h1>Kötelező olvasmányok</h1>
+          <h2 id="evfoly">Válaszd ki a felső menüből az évfolyamodat!</h2>
+
+          <ul id="felsorolas">
+            <li><a id="egy" href=""></a></li>
+            <li><a id="ketto" href=""></a></li>
+            <li><a id="harom" href=""></a></li>
+            <li><a id="negy" href=""></a></li>
+            <li><a id="ot" href=""></a></li>
+            <li><a id="hat" href=""></a></li>
+            <li><a id="het" href=""></a></li>
+            <li><a id="nyolc" href=""></a></li>
+            <li><a id="kilenc" href=""></a></li>
+
+
+
+
+          </ul>
+  
+        </div>
+        <div class="jobbra">
+          <h1>Kortárs költőink</h1>
+          <h3 id="varro1">Varró Dániel</h3>
+          <img id="varro2" src="varro_daniel.jpg">
+          <h3 id="finy1">Finy Petra</h3>
+          <img id="finy2" src="finy_petra.jpg">
+          <h3 id="kemenyi1">Kemény István</h3>
+          <img id="kemenyi2" src="kemeny_istvan.jpg">
+          <h3 class="kemenyzs1">Kemény Zsófia</h3>
+          <img class="kemenyzs2" src="Kemeny-zsofi.jpg">
+        </div>
+      </div>
+
+      <script>
+
+        function ev9() {
+          document.getElementById("evfoly").innerHTML = "9. évfolyam kötelező olvasmányai";
+          document.getElementById("egy").innerHTML = "Homérosz: Odüsszeia (részletek)";
+          document.getElementById("egy").innerHTML = "Szophoklész: Antigoné, Oidipusz király";
+          document.getElementById("ketto").innerHTML = "Biblia (Károli Gáspár ford.) Mózes I. könyve, Máté evangéliuma (részletek)";
+          document.getElementById("harom").innerHTML = "Dante Alighieri: Isteni színjáték, Pokol (részletek)";
+          document.getElementById("negy").innerHTML = "François Villon: A Nagy Testamentum (részletek)";
+          document.getElementById("ot").innerHTML = "William Shakespeare: Romeo és Júlia, Szentivánéji álom, Hamlet";
+          
+
+        }
+
+        function ev10() {
+          document.getElementById("evfoly").innerHTML = "10. évfolyam kötelező olvasmányai";
+          document.getElementById("egy").innerHTML = "Voltaire: Candide";
+          document.getElementById("egy").innerHTML = "E.T.A. Hoffmann: Az arany virágcserép";
+          document.getElementById("ketto").innerHTML = "Emily Brontë: Üvöltő szelek";
+          document.getElementById("harom").innerHTML = "Mary Shelley: Frankenstein";
+          document.getElementById("negy").innerHTML = "E.A. Poe: A Morgue utcai kettős gyilkosság";
+          document.getElementById("ot").innerHTML = "A. Sz. Puskin: Anyegin";
+          document.getElementById("hat").innerHTML = "Zrínyi Miklós: Szigeti veszedelem"
+
+        }
+
+        function ev11(){
+          document.getElementById("evfoly").innerHTML = "11. évfolyam kötelező olvasmányai";
+          document.getElementById("egy").innerHTML = "Katona József: Bánk bán";
+          document.getElementById("egy").innerHTML = "Vörösmarty Mihály: Csongor és Tünde";
+          document.getElementById("ketto").innerHTML = "Madách Imre: Az ember tragédiája";
+          document.getElementById("harom").innerHTML = "Honoré de Balzac: Goriot apó";
+          document.getElementById("negy").innerHTML = "Nyikolaj Vasziljevics Gogol: A köpönyeg";
+          document.getElementById("ot").innerHTML = "Lev Nyikolajevics Tolsztoj: Ivan Iljics halála";
+          document.getElementById("hat").innerHTML = "Anton Pavlovics Csehov: Sirály"
+          document.getElementById("het").innerHTML = "Petőfi Sándor: A helység kalapácsa"
+          document.getElementById("nyolc").innerHTML = "Petőfi Sándor: Az apostol"
+
+        }
+
+        function ev12(){
+          document.getElementById("evfoly").innerHTML = "12. évfolyam kötelező olvasmányai";
+          document.getElementById("egy").innerHTML = "Kosztolányi Dezső: Esti Kornél-novellák";
+          document.getElementById("egy").innerHTML = "Franz Kafka: Az átváltozás";
+          document.getElementById("ketto").innerHTML = "Thomas Mann: Mario és a varázsló, Tonio Kröger";
+          document.getElementById("harom").innerHTML = "Bertolt Brecht: Kurázsi mama és gyermekei";
+          document.getElementById("negy").innerHTML = "Örkény István: Tóték";
+          document.getElementById("ot").innerHTML = "Ottlik Géza: Iskola a határon";
+          document.getElementById("hat").innerHTML = "Kertész Imre: Sorstalanság"
+        }
+          
+
+
+
+
+      </script>
+
+      
+</body>
+</html>

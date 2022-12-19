@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Bejelentkezés</title>
+</head>
+<body>
+    <img class="fobook" src="mainbook.png">
+    <h1 class="focim">Digitális Könyvtár</h1>
+    <div class="folap">
+        <h2>Felhasználónév:</h2> <input class="loginblokk" type="text" id="username">
+        <h2>Jelszó:</h2> <input class="loginblokk" type="password" id="jelszo">
+        <br>
+        <br>
+        <div class="wrap">
+            <button onclick="validalas()" class="button">Bejelentkezés</button>
+        </div>
+    </div>
+    <div class="balkep">
+        <img src="arany.png">    
+    </div>
+    <div class="idezet1">
+        <em>"Kit érdekel a más sebe? Elég egy szívnek a magáé, Elég, csak azt köthesse be."</em>
+    </div>
+
+    <div class="jobbkep">
+        <img src="vorosmarty.png">
+    </div>
+    <div class="idezet2">
+        <em>"A múltat tiszteld a jelenben, s tartsd a jövőnek."</em>
+    </div>
+
+
+    <script>
+
+        function validalas(){
+
+                var be = "asd";
+                var jel = "alma123";
+
+                var megadott_be = document.getElementById("username").value;
+                var megadott_jel = document.getElementById("jelszo").value;
+
+                if(be == megadott_be && jel == megadott_jel){
+
+                    window.open("index.html", "_self");
+                    
+
+                }
+                else{
+
+                    alert("Sikertelen belépés");
+                }
+
+
+
+
+        }
+
+
+
+    </script>
+</body>
+</html>

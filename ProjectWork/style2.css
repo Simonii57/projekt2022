@@ -1,0 +1,378 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #20b2aa;
+    background-image: linear-gradient(19deg, #20b2aa 10%, #ff9a5a 89%);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/*FOCIM + ANIMACIO*/
+.focim h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 10s steps(160, end),
+      vonalka 1s step-end forwards;
+    text-align: center;
+    margin-top: 25px;
+    font-family: monospace;
+    font-size: 42px;
+    color: #1ebe81;
+    text-shadow: 2px 2px 4px #000000;
+    
+    
+    
+    
+  }
+
+.focim h4{
+    color: #1ebe81e1;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-top: -0.1rem;
+    font-family: monospace;
+    text-decoration: underline;
+    
+}
+
+.baloszlop{
+    width: 100%;
+    height: 1770px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    padding-top: 100px;
+    
+}
+
+.baloszlop h3{
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+.petofi{
+    
+    overflow: hidden;
+    width: 22.5%;
+    height: 1648px;
+    background-image: url(balimg.png);
+    background-position-y: -12rem;
+    border: 2px solid;
+    
+}
+
+.petofi img{
+    height: 210px;
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    margin-top: 10px;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+    
+    
+}
+
+.vorosmarty{
+    overflow: hidden;
+}
+
+.vorosmarty img{
+    height: 200px;
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    margin-top: 10px;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.baloszlop img:hover{
+    transform: scale(1.05);
+    filter: grayscale(0);
+    
+}
+
+
+.baloszlop h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 800;
+    font-size: 31px;
+}
+
+.focim2{
+    width: 22.5%;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    background-image: url(balimg.png);
+    background-position-x: 0rem;
+    background-position-y: -12rem;
+}
+
+.baloszlop li{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 5px;
+    padding-right: 35px;
+    text-align: center;
+    font-family: 'Oswald', 'monospace' ;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.baloszlop a:link {
+    text-decoration: none;
+}
+
+.baloszlop a{
+    transition: all 300ms;
+}
+
+.baloszlop a:hover{
+    font-size: 30px;
+    color: rgba(9, 233, 147, 0.788);
+    
+}
+
+.kozep{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -106rem;
+    width: 52%;
+    height: 1024px;
+    background-image: url(main-bg.jpg);
+    border-radius: 1.5%;
+    border-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12) 20;
+    border-width: 5px;
+    border-style: solid;
+    transition: all 300ms;
+    animation-name: bordermenet;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.kozep h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    animation-name: shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.kozep h2{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: rgb(143, 0, 0);
+    
+}
+
+.kozep a{
+    color: #9d08bb;
+    font-size: 25px;
+}
+
+.kozep a:hover{
+    font-size: 34px;
+}
+
+.jobbra {
+    border: 2px solid;
+    text-align: center;
+    width: 22.5%;
+    margin-right: 5px;
+    float: right;
+    margin-top: -63.8rem;
+    overflow: hidden;
+    height: 1648px;
+    background-image: url(balimg.png);
+    background-position-y: -12rem;
+    border: 2px solid;
+}
+
+.jobbra img{
+    height: 330px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    margin-top: 10px;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
+@keyframes shake {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(0.3px) translateY(0.2px) }
+    50% { transform: translateX(-0.3px) translateY(-0.2px)}
+    75% { transform: translateX(0.3px) translateY(0px)}
+    100% { transform: translateX(0) }
+   }
+
+@keyframes bordermenet {
+    0% {
+        border-image: linear-gradient(to right, #051937, #004d7a, #008793, #732ce4, #eb1212) 20;
+    }
+
+    25%{
+        border-image: linear-gradient(to right bottom, #ff1e00, #004d7a, #008793, #00bf72, #a8eb12) 20;
+    }
+
+    50%{
+        border-image: linear-gradient(to bottom, #ceb05e, #004d7a, #008793, #f8ec40, #742039) 20;
+    }
+
+    75%{
+        border-image: linear-gradient(to left bottom, #183f79, #597a00, #008793, #00bf72, #a8eb12) 20;
+    }
+
+    100%{
+        border-image: linear-gradient(to right, #051937, #004d7a, #008793, #732ce4, #eb1212) 20;
+    }
+}
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes vonalka {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+.nav, .menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav {
+    position: relative;
+    background-color: #20b2aa;
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    
+}
+
+#kotelezo{
+    color: rgba(128, 39, 39, 0.932)
+}
+
+#kotelezo:hover{
+    color: rgb(85, 2, 2);
+}
+
+.menu {
+    margin: 0rem;
+    padding: 0rem;
+    width: 0rem;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.nav input:checked ~ .menu {
+    width: 650px;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+    
+}
+
+.menu li a:hover {
+    color: #161919;
+}
+
+.nav input {
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.nav span {
+    position: absolute;
+    top: 12px;
+    left: 600px;
+    width: 30px;
+    height: 4.5px;
+    border-radius: 50px;
+    background-color: rgb(12, 65, 211);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.nav input:checked ~ span {
+    background-color: #f974a1;
+}
+
+.nav span:nth-child(2) {
+  transform: translateY(1.45rem) translateX(20.3rem)
+  
+  
+}
+
+.nav input:checked ~ span:nth-child(2) {
+    transform: translateY(18px) rotate(-45deg);
+}
+.nav span:nth-child(3) {
+    transform: translateX(20.3rem) translateY(0.9rem)
+    
+
+}
+
+.nav input:checked ~ span:nth-child(3) {
+    transform: translateY(18px) rotate(45deg);
+}
